@@ -25,7 +25,9 @@ Addressing Files and Directories :-
 	 6. 'align-images.py'              ---> Python file used to align the training images.
 	 7. 'classifier_train.py'          ---> Python file to train a classifier and dump a 'classifier.pkl' file.
 	 8. 'recognition_using_webcam.py'  ---> Python file to recognize images using webcam.
- 
+	 9. './samples'  		   ---> Contains sample images of the application
+	
+
 Steps :-
 
    1. Clone or Download the repository.
@@ -37,3 +39,4 @@ Steps :-
 	 		Here, '-outDir' takes the directory in which the embeddings will be stored and '-data' takes the aligned-images which is our training data.
 	 7. We will train our classifier using 'python classifier_train.py' this will store the trained classifier in the './generated_embeddings' diretory.
 	 8. Lastly, to detect the images using webcam run 'python recognition_using_webcam.py'. 
+
