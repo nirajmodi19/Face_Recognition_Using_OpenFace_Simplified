@@ -34,9 +34,9 @@ Steps :-
    2. Download and extract 'shape_predictor_68_face_landmarks.dat' from http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2 and save it on './models' directory.
    3. Download 'nn4.small2.v1.t7' from  https://storage.cmusatyalab.org/openface-models/nn4.small2.v1.t7 in the './models' directory.
    4. Put your training images in the './training-images' directory.
-	 5. First align images using the command  'python align-images.py', this will create sub-directories and will store aligned images on the directory.
-	 6. Now generate embeddings using './batch-represent/main.lua -outDir ./generated-embeddings/ -data ./aligned-images/' .
+   5. First align images using the command  'python align-images.py', this will create sub-directories and will store aligned images on the directory.
+   6. Now generate embeddings using './batch-represent/main.lua -outDir ./generated-embeddings/ -data ./aligned-images/' .
 	 		Here, '-outDir' takes the directory in which the embeddings will be stored and '-data' takes the aligned-images which is our training data.
-	 7. We will train our classifier using 'python classifier_train.py' this will store the trained classifier in the './generated_embeddings' diretory.
-	 8. Lastly, to detect the images using webcam run 'python recognition_using_webcam.py'. 
+   7. We will train our classifier using 'python classifier_train.py' this will store the trained classifier in the './generated_embeddings' diretory.
+   8. Lastly, to detect the images using webcam run 'python recognition_using_webcam.py'. 
 
